@@ -1,0 +1,47 @@
+.wrapper{
+    padding: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.card{
+    box-shadow: 0 0 10px #ccc;
+}
+
+.icon-enter-active{
+    animation: iconIn 0.5s;
+}
+
+.icon-leave-active{
+    animation: iconOut 0.5s;
+}
+
+@keyframes iconIn{
+    from{transform: rotateY(-90deg)}
+    to{transform: rotateY(0deg)}
+}
+
+@keyframes iconOut{
+    from{transform: rotateY(0deg)}
+    to{transform: rotateY(90deg)}
+}
+
+.btn-enter-active{
+    animation: btnIn 0.5s;
+}
+
+.btn-leave-active{
+    animation: btnOut 0.5s;
+}
+
+@keyframes btnIn{
+    from{transform: rotateX(-90deg)}
+    to{transform: rotateX(0deg)}
+}
+
+@keyframes btnOut{
+    from{transform: rotateX(0deg)}
+    to{transform: rotateX(90deg)}
+}
+
+
+
